@@ -30,10 +30,14 @@ The [weighted arithmetic mean][weighted-arithmetic-mean] is defined as
 
 <!-- <equation class="equation" label="eq:weighted_arithmetic_mean" align="center" raw="\bar{x} = \frac{\sum_{i=0}^{n-1} w_{i} x_{i}}{\sum_{i=0}^{n-1} w_{i}}" alt="Equation for the weighted arithmetic mean."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x} = \frac{\sum_{i=0}^{n-1} w_{i} x_{i}}{\sum_{i=0}^{n-1} w_{i}}" data-equation="eq:weighted_arithmetic_mean">
+```math
+\bar{x} = \frac{\sum_{i=0}^{n-1} w_{i} x_{i}}{\sum_{i=0}^{n-1} w_{i}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{\sum_{i=0}^{n-1} w_{i} x_{i}}{\sum_{i=0}^{n-1} w_{i}}" data-equation="eq:weighted_arithmetic_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@adbea9806383f70c982e3191475c874efba1296b/lib/node_modules/@stdlib/stats/incr/wmean/docs/img/equation_weighted_arithmetic_mean.svg" alt="Equation for the weighted arithmetic mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -209,7 +213,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
