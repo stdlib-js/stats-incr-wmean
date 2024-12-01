@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 /**
-* Compute a weighted arithmetic mean incrementally.
+* If provided both arguments, returns an updated weighted arithmetic mean; otherwise, returns the current weighted arithmetic mean.
 *
-* @module @stdlib/stats-incr-wmean
+* ## Notes
+*
+* -   If provided `NaN` or a value which, when used in computations, results in `NaN`, the accumulated value is `NaN` for all future invocations.
+*
+* @param x - value
+* @param w - weight
+* @returns weighted arithmetic mean
+*/
+type accumulator = ( x?: number, w?: number ) => number | null;
+
+/**
+* Returns an accumulator function which incrementally computes a weighted arithmetic mean.
+*
+* @returns accumulator function
 *
 * @example
-* var incrwmean = require( '@stdlib/stats-incr-wmean' );
-*
 * var accumulator = incrwmean();
 *
 * var mu = accumulator();
@@ -43,12 +56,9 @@
 * mu = accumulator();
 * // returns 2.5
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function incrwmean(): accumulator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = incrwmean;
