@@ -63,7 +63,7 @@ The [weighted arithmetic mean][weighted-arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import incrwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-wmean@esm/index.mjs';
+import incrwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-wmean@v0.2.3-esm/index.mjs';
 ```
 
 #### incrwmean()
@@ -121,7 +121,7 @@ mu = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-wmean@esm/index.mjs';
+import incrwmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-wmean@v0.2.3-esm/index.mjs';
 
 var accumulator;
 var v;
