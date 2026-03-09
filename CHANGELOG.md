@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-09)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`00a6742`](https://github.com/stdlib-js/stdlib/commit/00a6742ac55ce04ddaff8f88ce92bc295f4584ec) - **bench:** minor string interpolation change in `stats/incr/wmean` [(#9977)](https://github.com/stdlib-js/stdlib/pull/9977) _(by Om-A-osc)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Om-A-osc
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-01)
