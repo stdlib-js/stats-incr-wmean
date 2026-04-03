@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-04-03)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`93ac8b6`](https://github.com/stdlib-js/stdlib/commit/93ac8b6c1c6bc7c309f5607af8341e66be92f9f8) - **test:** add python fixtures support for `stats/incr/wmean` [(#9975)](https://github.com/stdlib-js/stdlib/pull/9975) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`00a6742`](https://github.com/stdlib-js/stdlib/commit/00a6742ac55ce04ddaff8f88ce92bc295f4584ec) - **bench:** minor string interpolation change in `stats/incr/wmean` [(#9977)](https://github.com/stdlib-js/stdlib/pull/9977) _(by Om-A-osc)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Om-A-osc
+-   Philipp Burckhardt
 
 </section>
 
